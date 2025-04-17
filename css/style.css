@@ -196,7 +196,6 @@ Header Area
 /*  */
 .solutions-section {
 	padding: 80px 0;
-	background-color: #f8f9fa;
 	margin: 40px 0;
 }
 .section-header {
@@ -217,17 +216,12 @@ Header Area
 	margin: 0 auto;
 }
 .category-card {
+	background: #fff;
 	padding: 30px 20px;
-	border-radius: 8px;
+	border-radius: 15px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	text-align: center;
-	background: white;
-	height: 250px;
-	margin: 0 15px;
-	box-shadow: 3px 15px 20px rgba(0,0,0,0.15);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 .category-icon {
 	font-size: 3rem;
@@ -295,7 +289,7 @@ Header Area
 }
 
 .d3-card{
-	margin-top: 70px;
+	margin-top:  130px;
 }
 
 
@@ -319,6 +313,46 @@ Header Area
     color: #fff;
 }
 
+/* rc360 */
+
+.border-none {
+	border: 0;
+}
+.rc360{
+	color: #3E779C;
+	font-size: 64px;
+}
+.rc360-text{
+	font-size: 20px;
+}
+
+.simu3D{
+	font-size: 48px;
+	color: #3E779C;
+}
+
+/*  */
+
+.bg-bottom img{
+	width:100%;
+}
+
+
+.input-bottom{
+	width: 300px;
+	height: 56px;
+	padding: 15px 20px;
+	margin: 9px 7px;
+}
+.btn-b{
+	background: #1D439A;
+	color:#fff;
+	padding: 0;
+	text-align: center;
+	font-size: 24px;
+
+}
+
 /*
 --------------
 Footer Area
@@ -330,11 +364,13 @@ Footer Area
 }
 .footer .widget {
 	padding-top: 70px;
+	padding-right: 50px;
 }
-.footer .widget-one {
+/* .footer .widget-one {
 	padding-top: 100px;
-}
+} */
 .widget-one {
+	
 	padding-top: 100px;
 	padding-bottom: 100px;
 	background: #F8F9FA;
@@ -352,6 +388,37 @@ Footer Area
 .widget-one .widget-logo {
 	margin-bottom: 20px;
 }
+.widget-logo img{
+	width: 100%;
+}
+.widget-one .policy{
+
+}
+.widget-one .policy a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #387AE7;
+
+}
+.widget-top-margin{
+	margin-top: 50px;
+}
+/* service-list */
+.service-list ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.service-list ul li{
+	margin-bottom: 15px;
+}
+.service-list ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #727879;
+
+}
+
 .widget-social ul {
 	display: flex;
 	margin: 0;
@@ -392,6 +459,16 @@ Footer Area
 	color: #727879;
 }
 
+.widget-logo p{
+	font-size: 16px;
+	color:#77808B;
+	margin-top: 20px;
+
+
+}
+
+
+
 /*Tweeter Feed*/
 ul.tweet-feed {
 	margin: 0;
@@ -415,43 +492,28 @@ ul.tweet-feed li a {
 .subscribe {
 	margin-top: 25px;
 }
-.subscribe input {
+.subscribe .email {
 	display: block;
-	width: 100%;
+	width: 250px;
 	background: #fff;
-	height: 35px;
+	height: 56px;
 	border: 1px solid #575757;
-	border-radius: 30px;
 	padding-left: 15px;
 	padding-right: 45px;
 	color: #4a4a4a;
 }
-.subscribe {
-	position: relative;
-}
-.subscribe input:focus {
-	outline: 0;
-}
-.subscribe:after {
-    content: "\f3fe";
-    font-family: "Font Awesome 5 Brands";
-    font-weight: 700;
-    position: absolute;
-    right: 19px;
-    top: 8px;
-    pointer-events: none;
-}
 .submit {
-	position: absolute;
-	right: 0;
-	top: 0;
-	bottom: 0;
+	
 }
-.submit input {
-    width: 50px;
-    background: transparent;
-    font-size: 0;
-    border: 0;
+.submit input{
+    font-size:14px;
+	color: #fff;
+	padding: 20px 40px;
+	background: #1D439A;
+
+}
+hr{
+	
 }
 
 .copyright {
@@ -463,3 +525,7 @@ ul.tweet-feed li a {
 .copyright a {
 	color: #8bc34a;
 }
+
+
+
+
