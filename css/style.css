@@ -64,33 +64,6 @@ a:hover {
     z-index: -9;
 }
 
-/* button */
-/* .our-btn {
-	padding: 17px 30px;
-	background: #0075FF;
-	display: inline-block;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 13px;
-	border-radius: 30px;
-	color: #fff;
-	border: 1px solid #aeaeae;
-	transition: .3s;
-}
-.our-btn:hover {
-	text-decoration: none;
-	background: #fff;
-	color: #0075FF;
-}
-.abt-btn .our-btn {
-	background: #fff;
-	color: #0075FF;
-	border: 1px solid #0075FF;
-}
-.abt-btn .our-btn:hover {
-	background: #0075FF;
-	color: #fff;
-} */
 /*
 ======================
 Header Area
@@ -145,7 +118,7 @@ Header Area
 	z-index: 0;
 }
 .bg-image img{
-	max-width: 100%;
+	width: 100%;
 }
 .bg-image::after{
 	content: "";
@@ -339,7 +312,7 @@ Header Area
 
 
 .input-bottom{
-	width: 300px;
+	width: 255px;
 	height: 56px;
 	padding: 15px 20px;
 	margin: 9px 7px;
@@ -370,9 +343,7 @@ Footer Area
 	padding-top: 100px;
 } */
 .widget-one {
-	
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 30px;
 	background: #F8F9FA;
 	position: relative;
 }
@@ -430,6 +401,9 @@ Footer Area
 	display: block;
 	padding: 10px;
 	transition: .3s;
+	color: #1D439A;
+	font-size: 35px;
+
 	}
 .widget-social ul li a i {
 	transition: .3s;
@@ -493,39 +467,54 @@ ul.tweet-feed li a {
 	margin-top: 25px;
 }
 .subscribe .email {
-	display: block;
-	width: 250px;
+	/* display: block; */
+	width: 255px;
 	background: #fff;
 	height: 56px;
 	border: 1px solid #575757;
 	padding-left: 15px;
-	padding-right: 45px;
 	color: #4a4a4a;
 }
 .submit {
-	
+	display: inline-block;
 }
-.submit input{
+.submit button{
     font-size:14px;
 	color: #fff;
-	padding: 20px 40px;
+	padding: 15px 30px;
+	margin-left: 5px;
 	background: #1D439A;
 
 }
-hr{
-	
+.foot-border{
+	height:2px;
+	border-width:0;
+	color:#1D439A;
+	background-color:#1D439A;
 }
 
 .copyright {
-	background: #1c1c1c;
+	background: #F8F9FA;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
 }
-.copyright a {
-	color: #8bc34a;
-}
 
+.copyRobot{
+	font-size: 24px;
+	font-family: roboto;
+	color: #727879;
+
+}
+.foot-contact {
+	font-size: 15px;
+}
+.foot-contact .f{
+	
+	color: #387AE7;
+	margin-right: 5px;
+	font-size: 18px;
+}
 
 
 
