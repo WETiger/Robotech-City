@@ -562,3 +562,18 @@ ul.tweet-feed li a {
 .robot-img img{
 	width: 100%;
 }
+.about-robot{
+	margin-top: 45px;
+}
+.about-robot h3{
+	color: #3E779C;
+	font-size: 30px;
+
+
+}
+.about-robot p{
+	color: #727879;
+	font-size: 16px;
+	
+
+}
