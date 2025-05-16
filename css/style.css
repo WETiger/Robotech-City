@@ -64,6 +64,16 @@ a:hover {
     z-index: -9;
 }
 
+.common-text-p{
+	color: rgb(114, 120, 121);
+	font-family: Poppins;
+	font-size: 1.12rem;
+	font-weight: 500;
+	line-height: 27px;
+	
+
+}
+
 /*
 ======================
 Header Area
@@ -528,31 +538,8 @@ ul.tweet-feed li a {
 ===============================================
 				Brand page css
 ====================================================== */
-/* 
-.slide-img{
-	background-image: url("../images/brand/1\ 1.png");
-	background-size: cover;
-	background-position: center;
-	height: 600px;
-}
 
-.slide-img2{
-	background-image: url("../images/brand/1\ 1\ -\ Copy.png");
-	background-size: cover;
-	background-position: center;
-	height: 600px;
-}
 
-.slide-img3{
-	background-image: url("../images/brand/1\ 1\ \(2\).png");
-	background-size: cover;
-	background-position: center;
-	height: 600px;
-}  */
-
-.slide-img2{
-
-}
 .slide-img img{
 	width: 100%;
 	background-size: cover;
@@ -563,40 +550,67 @@ ul.tweet-feed li a {
 .carousel-caption{
 	bottom: 55%;
 }
-.carousel-caption h2{
-	font-size:50px;
-	color:#fff;
+.slide-title{
+	font-size:4rem;
+	color: rgb(255, 255, 255);
+	font-family: Poppins;
+	font-weight: 600;
+	line-height: 96px;
 }
-.carousel-caption p{
-	font-size:26px;
-	color:#fff;
+.slide-text{
+	color: rgb(255, 255, 255);
+	font-family: Poppins;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 48px;
 }
+
+
+/* index.html slide r style here */
+.caro-contl{
+	bottom: -80px;
+}
+.caro-contl [data-bs-target]{
+    background-color: #0f6186;
+    transition: opacity .6s ease;
+}
+   
+
+
+
 
 /* about robot */
 .about-robot-section{
-	margin: 50px 0;
+	margin: 65px 0;
 }
 .robot-img img{
 	width: 100%;
+	max-height: 215px;
 }
 .about-robot{
 	margin-top: 45px;
+	margin-left: 35px;
 }
 .about-robot h3{
-	color: #3E779C;
-	font-size: 30px;
-
-
-}
-.about-robot p{
-	color: #727879;
-	font-size: 16px;
-	
-
+	color: rgb(62, 119, 156);
+	font-size: 2.48rem;
+	font-weight: 600;
+	line-height: 59px;
 }
 
+.cobots-title{
+	font-size: 3rem;
+	font-weight: 500;
+	line-height: 72px;
+}
 
-
+.d-flexx-slide{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+.carousel-item img{
+	w100%
+}
 
 
 /* 

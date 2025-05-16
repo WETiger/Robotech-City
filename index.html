@@ -13,14 +13,10 @@
     <link rel="stylesheet" href="css/all.min.css">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
-    <!-- Fancybox CSS -->
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.css">
 
 
 
@@ -29,7 +25,6 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responive.css">
 
-    <script src="jquery-3.4.1.min.js"></script>
 
   </head>
   <body>
@@ -57,7 +52,7 @@
                     <a class="nav-link active" aria-current="page" href="pages/all-products.html">Products</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/industral.html">Industries
+                    <a class="nav-link" href="pages/">
                     </a>
                   </li>
                   <li class="nav-item">
@@ -109,6 +104,7 @@
         </div>
     </section>
 
+
  <!-- Automation Solutions Section with Carousel -->
  <section class="solutions-section">
   <div class="container">
@@ -117,7 +113,12 @@
           <p class="section-subtitle">Automation solutions for a wide range of tasks</p>
       </div>
       
-      <div id="solutionsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators caro-contl">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
           <div class="carousel-inner">
               <div class="carousel-item active">
                   <div class="row justify-content-center">
@@ -163,6 +164,44 @@
                   </div>
               </div>
               
+              <!-- Second slide (duplicate for demo, replace with your actual content) -->
+              <div class="carousel-item">
+                  <div class="row justify-content-center">
+                      <!-- Additional categories can go here -->
+                      <div class="col-lg-3 col-md-6 category-grid">
+                          <div class="category-card">
+                              <div class="category-img">
+                                  <img src="images/Vector.png" alt="">
+                              </div>
+                              <h3 class="category-name">Robotics</h3>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <div class="category-card">
+                              <div class="category-img">
+                                  <img src="images/Vector-1.png" alt="">
+                              </div>
+                              <h3 class="category-name">Healthcare</h3>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <div class="category-card">
+                              <div class="category-img">
+                                  <img src="images/Vector-2.png" alt="">
+                              </div>
+                              <h3 class="category-name">Logistics</h3>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <div class="category-card">
+                              <div class="category-img">
+                                  <img src="images/bi_robot.png" alt="">
+                              </div>
+                              <h3 class="category-name">Smart Home</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
               <!-- Second slide (duplicate for demo, replace with your actual content) -->
               <div class="carousel-item">
                   <div class="row justify-content-center">
@@ -526,21 +565,17 @@
 <!-- /Footer Area End -->
 
 <!--JavaScript -->
+
+    <script src="jquery-3.4.1.min.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
 <!-- ionicons -->
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-<!-- MixItUp -->
-    <script src="js/mixitup.min.js"></script>
-<!-- fancybox js -->
-    <script src="js/jquery.fancybox.min.js"></script>
 <!-- owl js -->
     <script src="js/owl.carousel.min.js"></script>
-<!-- WoW -->
-    <script src="js/wow.min.js"></script>
     
 <!-- Custom JS -->
     <script src="js/custom.js"></script>
